@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T17:03:53.975Z" agent="5.0 (Windows)" etag="Wq6lMcAQq69_BhAIfgNW" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-12T17:15:17.536Z" agent="5.0 (Windows)" etag="ykxl-JNwNdcKvDL1Vjmz" version="14.9.6" type="github">
   <diagram id="B94MK6AZcTMCaZdwlap7" name="Page-1">
-    <mxGraphModel dx="4890" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6515" dy="3120" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -246,6 +246,98 @@
         </mxCell>
         <mxCell id="ufzCT7gyZ99gmsHbjv4e-86" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Lucida Console;" vertex="1" parent="1">
           <mxGeometry x="1500" y="1370" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-88" target="ufzCT7gyZ99gmsHbjv4e-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-88" target="ufzCT7gyZ99gmsHbjv4e-109">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-88" value="Logging in" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2550" y="250" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-89" target="ufzCT7gyZ99gmsHbjv4e-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-89" value="Username" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2575" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-90" target="ufzCT7gyZ99gmsHbjv4e-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-90" value="Encrypted password using EncryptionKey Request" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2300" y="390" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-93" target="ufzCT7gyZ99gmsHbjv4e-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-93" target="ufzCT7gyZ99gmsHbjv4e-103">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2530" y="530" />
+              <mxPoint x="2530" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-93" value="Decrypted Password" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-97" value="Private Key" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-94" target="ufzCT7gyZ99gmsHbjv4e-93">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-94" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="490" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-107" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-98" target="ufzCT7gyZ99gmsHbjv4e-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-98" value="Password matches" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-101" value="Hashed password" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-100" target="ufzCT7gyZ99gmsHbjv4e-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-104" value="Encrypted 2FA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-100" target="ufzCT7gyZ99gmsHbjv4e-103">
+          <mxGeometry x="0.3571" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2160" y="810" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-100" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2130" y="640" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-103" target="ufzCT7gyZ99gmsHbjv4e-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-103" value="Decrypted 2FA" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-108" target="ufzCT7gyZ99gmsHbjv4e-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-108" value="Generate OTP" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-109" target="ufzCT7gyZ99gmsHbjv4e-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2820" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-109" value="Given OTP" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2760" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-116" value="Store" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Lucida Console;" edge="1" parent="1" source="ufzCT7gyZ99gmsHbjv4e-113" target="ufzCT7gyZ99gmsHbjv4e-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-113" value="Generate Access Tokens" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-115" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="1190" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
