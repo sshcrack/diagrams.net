@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T17:31:47.175Z" agent="5.0 (Windows)" etag="YUsndbmR_Hf7NxyUF6xb" version="14.9.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-08-12T17:46:20.888Z" agent="5.0 (Windows)" etag="X3i3ORPgTwThS_yvQ7-1" version="14.9.6" type="github">
   <diagram id="B94MK6AZcTMCaZdwlap7" name="Page-1">
-    <mxGraphModel dx="4890" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3671" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -467,6 +467,18 @@
         </mxCell>
         <mxCell id="ufzCT7gyZ99gmsHbjv4e-170" value="Send user notice" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Lucida Console;" vertex="1" parent="1">
           <mxGeometry x="2160" y="1270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-175" value="&lt;font style=&quot;font-size: 66px&quot;&gt;Authentication&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="80" width="530" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-181" value="Frontend = Amethyst" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="750" y="50" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-182" value="CL = UltraV" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="750" y="90" width="210" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ufzCT7gyZ99gmsHbjv4e-183" value="Backend = Obsidian" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Lucida Console;" vertex="1" parent="1">
+          <mxGeometry x="760" y="70" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
