@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-08-12T16:24:11.612Z" agent="5.0 (Windows)" version="14.9.6" etag="AgEEd8EFLp-BjNdA24N-" type="github"><diagram id="B94MK6AZcTMCaZdwlap7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-12T16:30:59.629Z" agent="5.0 (Windows)" etag="Cdf-Sqs8PnmXi1-9S7f2" version="14.9.6" type="github">
+  <diagram id="B94MK6AZcTMCaZdwlap7" name="Page-1">
+    <mxGraphModel dx="1808" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oLLIC_oALKhIsvuhBStB-2" value="Backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLLIC_oALKhIsvuhBStB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLLIC_oALKhIsvuhBStB-12" target="oLLIC_oALKhIsvuhBStB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLLIC_oALKhIsvuhBStB-12" value="&lt;div&gt;Encryption Key&lt;/div&gt;&lt;div&gt;(Used for encrypting the user password client wise)&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="oLLIC_oALKhIsvuhBStB-13" value="DB" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLLIC_oALKhIsvuhBStB-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLLIC_oALKhIsvuhBStB-15" target="oLLIC_oALKhIsvuhBStB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLLIC_oALKhIsvuhBStB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="oLLIC_oALKhIsvuhBStB-15" target="oLLIC_oALKhIsvuhBStB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oLLIC_oALKhIsvuhBStB-15" value="&lt;div&gt;Request Body&lt;/div&gt;&lt;div&gt;username&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="330" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="oLLIC_oALKhIsvuhBStB-17" value="Generate RSA Keypair" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oLLIC_oALKhIsvuhBStB-20" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="oLLIC_oALKhIsvuhBStB-17" target="oLLIC_oALKhIsvuhBStB-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="510" as="sourcePoint" />
+            <mxPoint x="210" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLLIC_oALKhIsvuhBStB-21" value="&lt;div&gt;Store&lt;/div&gt;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="oLLIC_oALKhIsvuhBStB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
